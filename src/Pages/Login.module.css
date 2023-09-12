@@ -1,0 +1,121 @@
+
+  .fieldstyle1 {
+    width: 100%;
+    padding: 12px; 
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  .submitbutton1 {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px; 
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .submitbutton1:hover {
+    background-color: #0056b3;
+  }
+      
+.Toastify__toast-container {
+    z-index: 9999;
+  }
+  
+  .Toastify__toast--error {
+    background-color: red;
+  }
+
+
+.background {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(25, 1, 1, 0.7)), url("../images/Initial.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .extraText1 {
+    color: white;
+    text-align: center; 
+    max-width: 80%; 
+    margin-top: 140px; 
+    margin-right: 700px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .extraText2 {
+    color: white;
+    text-align: center; 
+    max-width: 80%;
+    
+    margin-right: 700px;
+    font-size: 20px;
+  }
+  .yellowText {
+    color: yellow; 
+}
+  
+  .container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 800px;
+    margin-bottom: 200px;
+    width: 100%; 
+    max-width: 400px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .h2
+  {
+    font-weight: bold;
+  }
+  .backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+  }
+  
+  .backButton img {
+    width: 40px;
+    height: 40px;
+  }
+
+  @media (max-width: 768px) {
+    .background {
+      flex-direction: column; 
+      padding: 100px; 
+    }
+  
+    .extraText1 {
+      max-width: 100%; 
+      margin-top: 100px;
+      margin-right: 0; 
+      font-size: 40px; 
+    }
+  
+    .extraText2 {
+      max-width: 100%; 
+      margin-top: 10px;
+      margin-right: 0; 
+      font-size: 16px; 
+    }
+  
+    .container {
+      margin-left: 20px; 
+      margin-right: 20px; 
+      margin-bottom: 50px; 
+    }
+  }
+  
+  
+  
+  

@@ -1,0 +1,32 @@
+.displaymodel {
+    position:fixed;
+    top: 200px;
+    left: 40px;
+    width:100% ;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+  }
+  
+  .displaymodel-content {
+    background-color: #fff;
+    padding: 30px;
+    height:460px;
+    width:650px;
+    border-radius: 6px;
+    overflow-y: scroll;
+    font-family: sans-serif;
+    
+   
+  }
+  .h4
+  {
+    position: relative;
+    top:90px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+ 
+  

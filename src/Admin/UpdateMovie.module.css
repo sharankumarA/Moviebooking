@@ -1,0 +1,130 @@
+.fieldupdate {
+
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border:1px soild #ccc;
+    border-radius:4px;
+}
+.submitbuttonupdate{
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.backbuttonupdate
+{
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.dropdowncontainerupdate
+{
+   width:100%;
+}
+.dropdowncontainertheatre
+{
+   width:100%;
+}
+
+.textContainer {
+    padding:20px;
+    text-align: center;
+    justify-content: center;
+}
+.ModalContent {
+    position: relative;
+    background-color: #dadada;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px; 
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+
+
+
+.background {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(25, 1, 1, 0.9)), url("../images/Initial1.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+ .backbutton,
+.submitbutton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.buttonalign {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.backbutton {
+    background-color: #f0a234;
+    color: white;
+}
+
+.submitbutton {
+    background-color: #1bbef0;
+    color: white;
+}
+.field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.h2
+{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.p
+{
+    color: white;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .ModalContent {
+        max-width: 90%; 
+    }
+    .buttonalign {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+@media (max-width: 768px) {
+    .ModalContent {
+        max-width: 90%; 
+    }
+    .buttonalign {
+        flex-direction: column;
+        align-items: center;
+    }
+    .backbutton,
+    .submitbutton {
+        width: 100%; 
+        margin: 5px 0; 
+    }
+}
+

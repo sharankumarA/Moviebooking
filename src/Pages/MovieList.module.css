@@ -1,0 +1,171 @@
+/* Default styles */
+.searchContainer {
+  display: flex;
+  margin-left: 1250px;
+padding: 15px;
+}
+
+.searchInputContainer {
+  position: relative;
+}
+
+.searchInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 240px;
+}
+.searchButton {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+.searchIcon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+ 
+ .cardadjust {
+   padding: 40px;
+   border-radius: 6px;
+   margin-top: 20px;
+   align-items: center;
+   
+ }
+ 
+ 
+ 
+ .insideCard {
+   text-align: center;
+   margin-bottom: 25px;
+   font-family: sans-serif;
+   padding: 1px;
+ }
+ 
+ .spandisplaymovie {
+   position: relative;
+   top: 5px;
+   margin-left: 20px;
+   font-size: 25px;
+   color: white;
+ }
+ 
+ .listbutton {
+   margin-top: 25px;
+  position: relative;
+  left:1100px;
+ }
+ 
+ .card {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   grid-gap: 16px;
+   margin-top: -30px;
+   margin-left: 100px;
+ 
+ }
+
+ .backButton {
+   position: absolute;
+   top: 90px;
+   left: 20px;
+   cursor: pointer;
+ }
+ 
+ .backButton img {
+   width: 40px;
+   height: 40px;
+ }
+
+ .background {
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(25, 1, 1, 0.9)), url("../images/Initial.jpg");
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   justify-content: center;
+   
+}
+.navSeparator {
+   margin: 0px ;
+   border-top: 1px solid #ccc; 
+ }
+ .cardimgtop
+{
+  height: 300px;
+  object-fit: cover;
+}
+ 
+.btnlink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnlink:hover {
+  background-color: #0056b3;
+}
+
+.textmuted {
+  color: #999;
+}
+
+
+@media (max-width: 1200px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr); 
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px; 
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .searchContainer {
+    margin-left: 0; 
+    justify-content: center; 
+  }
+  
+  .searchInputContainer {
+    margin-right: 10px; 
+  }
+  
+ 
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .searchInputContainer {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+}

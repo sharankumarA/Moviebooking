@@ -1,0 +1,68 @@
+.ticket-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  transition: transform 0.2s;
+}
+
+.ticket-card:hover {
+  transform: translateY(-5px);
+}
+
+.ticket-card .card-body {
+  padding: 20px;
+}
+
+.ticket-card h3.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+  
+}
+
+.ticket-card p.card-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.ticket-card p.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.ticket-card .movie-info {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-card .theatre-info {
+  display: flex;
+  align-items: center;
+}
+
+.ticket-card .seat-info {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.ticket-card .ticket-count {
+  background-color: #3498db; 
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+
+  .cardadjust
+{
+   padding: 40px;
+   border-radius:6px;
+   margin-top:10px;
+   align-items: center;
+}

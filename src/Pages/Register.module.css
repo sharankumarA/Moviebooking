@@ -1,0 +1,125 @@
+/* Register.module.css */
+.background {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(25, 1, 1, 0.7)), url("../images/Initial.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 800px;
+    margin-bottom: 200px;
+    width: 100%; 
+    max-width: 400px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  }
+  .extraText1 {
+    color: white;
+    text-align: center; 
+    max-width: 80%; 
+    margin-top: 200px; 
+    margin-right: 700px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .extraText2 {
+    color: white;
+    text-align: center; 
+    max-width: 80%; 
+    margin-right: 700px;
+    font-size: 20px;
+  }
+  .span {
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.yellowText {
+    color: yellow; 
+}
+
+
+  
+  
+  .fieldstyle2 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ 
+  
+  .submitbutton2 {
+    width: 100%; 
+    padding: 12px;
+    margin-top: 20px; 
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .submitbutton2:hover {
+    background-color: #0056b3;
+  }
+      
+  .backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+  }
+  
+  .backButton img {
+    width: 40px;
+    height: 40px;
+  }
+  
+ 
+ 
+@media screen and (max-width: 768px) {
+    .container {
+        margin-left: 50px; 
+        margin-bottom: 100px; 
+      }
+    
+      .firstLine {
+        font-size: 40px; 
+        margin-top: 150px; 
+        margin-right: 0; 
+      }
+    
+      .secondLine {
+        font-size: 18px; 
+        margin-right: 0; 
+      }
+  
+    .extraText1 {
+      margin-top: 50px; 
+      margin-right: 0; 
+    }
+  
+    .backButton {
+      top: 10px;
+      left: 10px; 
+    }
+    
+    
+    .background {
+        height: 100vh;
+      }
+  }
+  

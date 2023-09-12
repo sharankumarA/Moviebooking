@@ -1,0 +1,32 @@
+/* NotFoundPage.css */
+
+.notfoundcontainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .notfoundcontent {
+    text-align: center;
+  }
+  
+  
+  .aNotFound {
+    display: inline-block;
+    background-color: #f76c6c;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .aNotFound:hover {
+    background-color: #f34545;
+  }
+  .pNotFound {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }

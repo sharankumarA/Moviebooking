@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: moviebookingui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: moviebookingui
+  template:
+    metadata:
+      labels:
+        app: moviebookingui
+    spec:
+      containers:
+        - name: moviebooking
+          image: moviebookingapp.azurecr.io/react-app-image:latest
+          ports:
+            - containerPort: 80
+      imagePullSecrets:
+      - name: auth
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: moviebookingui
+spec:
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  selector:
+    app: moviebookingui

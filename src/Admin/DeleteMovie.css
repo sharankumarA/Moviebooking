@@ -1,0 +1,15 @@
+
+  .Toastify__toast--error {
+    background-color:white;
+    color: red;
+  }
+
+  .Toastify__toast--success{
+    background-color:white;
+    color: green;
+  }
+  
+.Toastify__toast-container {
+    z-index: 9999;
+  }
+  
